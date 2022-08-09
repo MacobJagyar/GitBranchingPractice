@@ -12,7 +12,7 @@ namespace GitBranchingPractice
 
         public virtual void Go()
         {
-            Console.WriteLine("Vehicle is going.");
+            Console.WriteLine($"{Name} is going.");
         }
     }
 }
