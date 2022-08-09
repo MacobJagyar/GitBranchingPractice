@@ -1,8 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-<<<<<<< HEAD
-Console.WriteLine("Hello, World!");
+﻿using GitBranchingPractice;
 
-
-=======
 Console.WriteLine("Howdy");
->>>>>>> second-branch
+
+Airplane airplane = new Airplane();
+
