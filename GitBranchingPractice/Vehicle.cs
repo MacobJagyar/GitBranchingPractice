@@ -10,6 +10,8 @@ namespace GitBranchingPractice
     {
         public string Name { get; set; }
 
+        public int Year { get; set; }
+
         public virtual void Go()
         {
             Console.WriteLine($"{Name} is going.");
